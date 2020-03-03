@@ -1,9 +1,9 @@
-// var a = new Date(prompt('Введите дату: год, месяц, день', ''));
-//     b = new Date();
-// function diffGetHours(date1, date2) {
-//     return Math.ceil((date2.getTime() - date1.getTime()) / (1000 * 3600));
-// }
-// console.log(diffGetHours(a, b));
+var a = new Date(prompt('Введите дату: год, месяц, день', ''));
+    b = new Date();
+function diffGetHours(date1, date2) {
+   return Math.ceil((date2.getTime() - date1.getTime()) / (1000 * 3600));
+}
+console.log(diffGetHours(a, b));
 
 
 
